@@ -20,6 +20,10 @@ pipeline {
                 python -m venv mlip
                 source mlip/bin/activate
 
+                pip install pandas
+                pip install numpy
+                pip install pytest
+                pip install scikit-learn
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
