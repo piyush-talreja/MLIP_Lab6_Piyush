@@ -17,8 +17,8 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
-                python3 -m venv mlip
-                source mlip/bin/activate
+                python3 -m venv mlip_lab
+                source mlip_lab/bin/activate
 
                 pip3 install pandas
                 pip3 install numpy
